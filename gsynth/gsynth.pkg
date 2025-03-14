@@ -68,5 +68,6 @@ f rcall_synchronize.ado
 f rcallscript.ado
 f rprofile.site
 f stata.output.r
+f stataoutput.r
 f varconvert.ado
 f wdpermissions.ado
