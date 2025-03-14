@@ -1,0 +1,3 @@
+// Rhistory initiated on 29 Apr 2023  00:01:01
+rcall :  library(gsynth)
+rcall :  dataset <- st.data();  M <- gsynth(data=dataset,Y = c('lifeexp'), D = c('treat'), X = c('pop', 'gdppercap'), index = c('country', 'year'),           se = TRUE,          ); readstata13::save.dta13(as.data.frame(M[['est.avg']]), 'temp_gsynth_avg.dta', add.rownames = TRUE, convert.underscore = TRUE); readstata13::save.dta13(as.data.frame(M[['est.beta']]), 'temp_gsynth_coef.dta', add.rownames = TRUE, convert.underscore = TRUE); readstata13::save.dta13(as.data.frame(M[['est.att']]), 'temp_gsynth_att.dta', add.rownames = TRUE, convert.underscore = TRUE)
