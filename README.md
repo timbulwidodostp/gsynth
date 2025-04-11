@@ -1,6 +1,8 @@
 # gsynth
 Generalized synthetic control method Use gsynth With STATA 18
 
+https://www.youtube.com/watch?v=UcE4SPXciig
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
